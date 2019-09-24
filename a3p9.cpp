@@ -6,12 +6,6 @@ class STACK{
     int array[max_size];
     int pushed;
 public:
-    void get_data()
-    {
-        cout<<"Enter the first element: ";
-        cin>>array[0];
-        pushed=1;
-    }
     void push()
     {
         if(pushed==max_size)
