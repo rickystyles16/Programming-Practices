@@ -4,7 +4,7 @@ using namespace std;
 #define max_size 10
 class STACK{
     int array[max_size];
-    int pushed;
+    int pushed=0;
 public:
     void push()
     {
@@ -37,12 +37,12 @@ public:
 int menu()
  {
      int choice;
-      printf ("\nMenu\n");
-      printf ("1.Push\n");
-      printf ("2.Pop\n");
-      printf ("3.Show Elements\n");     
-	  printf ("4.Exit\n");
-	  scanf ("%d",&choice);     
+      cout <<"\t"<<"Menu"<<"\n";
+      cout << "1.Push"<<"\n";
+      cout << "2.Pop"<<"\n";
+      cout << "3.Show Elements"<<"\n";     
+	  cout <<"4.Exit"<<"\n";
+	  cin >> choice;     
 	 return choice;
 }
 
